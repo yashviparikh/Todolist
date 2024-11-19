@@ -1,0 +1,119 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.todolist{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color:#1818c4;
+  text-shadow: 3px 1px rgb(222, 222, 222);
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.addbutton{
+  background-color:#02258e;
+}
+
+.addbutton :hover{
+  background-color:#072d9f;
+}
+
+.deletebutton{
+  background-color:#056c6c;
+}
+
+.deletebutton :hover{
+  background-color:#058585;
+}
+
+.movebutton{
+  background-color:#004747;
+}
+
+.movebutton :hover{
+  background-color:#048181;
+}
+
+input [type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black(0,0%,80%,0.5);
+  border-radius: 5px;
+}
+input{
+  height: 30px;
+  width: 250px;
+  margin-right: 12px;
+  border-radius: 7px;
+}
+::placeholder{
+  font-size: 18px;
+  color:rgb(6, 6, 6)
+}
+ol {
+  padding:0px;
+}
+ li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border: 3px solid rgb(165, 162, 162);
+  border-radius: 5px;
+  display: flex;
+  align-items:center ;
+ }
+
+ .text{
+  flex-grow:1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: "10px";
+  text-Decoration: "none" ;
+ }
+  .deletebutton, .movebutton{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px ;
+  }
+
+  .taskno{
+    font-size: 30px;
+    font-family: "IBM Plex Serif", serif ;
+    color:#98ebeb;
+  }
+ .quantity{
+  padding: 2px;
+  font-size: 27px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right:10px;
+ }
+
+ select{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size:15px;
+    background-color:#83a3e3;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 4px solid transparent;
+    height: 30px;
+    width: 100px;
+ }
+
+  
